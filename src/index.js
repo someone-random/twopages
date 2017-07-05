@@ -23,7 +23,6 @@ async function init() {
   await render((
     <ReduxProvider store={reduxStore}>
       <Header />
-    </ReduxProvider>
   ), document.getElementById('header'))
 
   await render((
